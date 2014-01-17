@@ -46,6 +46,8 @@ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
+LOCAL_FULL_LIBS_MANIFEST_FILES := $(LOCAL_PATH)/AndroidManifest-extra.xml
+
 LOCAL_AAPT_FLAGS := --auto-add-overlay \
     --extra-packages android.support.v7.preference \
     --extra-packages android.support.v14.preference \
