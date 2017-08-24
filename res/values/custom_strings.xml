@@ -60,4 +60,8 @@
     <!-- Clang version -->
     <string name="clang_version">Clang version</string>
     <string name="clang_version_default">Unknown</string>
+    
+    <!-- ReaperSettings -->
+    <string name="reaper_settings_activity">ReaperSettings</string>
+    <string name="reaper_settings_activity_summary">Advanced ROM configuration</string>
 </resources>
