@@ -83,6 +83,12 @@
                 android:title="@string/kernel_version"
                 android:summary="@string/device_info_default"/>
 
+        <!-- ROM Version -->
+        <Preference
+                android:key="reaper_version"
+                android:title="@string/reaper_version"
+                android:summary="@string/reaper_version_default"/>
+
         <!-- Detailed build version -->
         <Preference
                 android:key="build_number"

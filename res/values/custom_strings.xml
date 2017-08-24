@@ -18,6 +18,11 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Reaper Version -->
+    <string name="reaper_version">Reaper version</string>
+    <string name="reaper_version_default">Unknown</string>
+    
+    <!-- Dev settings already enabled -->
     <string name="show_dev_already_enabled">Alreay done for you, hackerman.</string>
 
     <!-- Vendor version -->
