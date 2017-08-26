@@ -34,6 +34,7 @@ import com.android.settings.deviceinfo.DeviceModelPreferenceController;
 import com.android.settings.deviceinfo.FccEquipmentIdPreferenceController;
 import com.android.settings.deviceinfo.FirmwareVersionPreferenceController;
 import com.android.settings.deviceinfo.KernelVersionPreferenceController;
+import com.android.settings.deviceinfo.GCCVersionPreferenceController;
 import com.android.settings.deviceinfo.ManualPreferenceController;
 import com.android.settings.deviceinfo.RegulatoryInfoPreferenceController;
 import com.android.settings.deviceinfo.ReaperVersionPreferenceController;
@@ -131,6 +132,7 @@ public class DeviceInfoSettings extends DashboardFragment implements Indexable {
         controllers.add(new SafetyInfoPreferenceController(context));
         controllers.add(new VendorVersionPreferenceController(context));
         controllers.add(new ReaperVersionPreferenceController(context));
+        controllers.add(new GCCVersionPreferenceController(context));
         return controllers;
     }
 
