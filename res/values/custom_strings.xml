@@ -52,4 +52,8 @@
     <!-- GCC compiler -->
     <string name="gcc_version">GCC version</string>
     <string name="gcc_version_default">Unknown</string>
+
+    <!-- Clang version -->
+    <string name="clang_version">Clang version</string>
+    <string name="clang_version_default">Unknown</string>
 </resources>
