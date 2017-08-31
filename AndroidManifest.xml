@@ -2990,7 +2990,7 @@
         <activity android:name=".Settings$SystemDashboardActivity"
                   android:label="@string/header_category_system"
                   android:icon="@drawable/ic_settings_about">
-            <intent-filter android:priority="-1">
+            <intent-filter android:priority="-2">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
@@ -3005,7 +3005,7 @@
                   android:label="@string/page_tab_title_support"
                   android:icon="@drawable/ic_help"
                   android:enabled="@bool/config_support_enabled">
-            <intent-filter android:priority="-2">
+            <intent-filter android:priority="-3">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
@@ -3098,7 +3098,7 @@
         <activity android:name=".Settings$ReaperSettingsActivity"
                   android:label="@string/reaper_settings_activity"
                   android:icon="@drawable/ic_settings_reaper">
-            <intent-filter android:priority="12">
+            <intent-filter android:priority="-1">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
