@@ -19,6 +19,7 @@
 
         <!-- Reaper Header Text -->
         <PreferenceScreen android:key="reaper_header"
+                          android:enabled="false"
                           android:layout="@layout/about_header_row" />
 
         <!-- Device status - launches activity -->
