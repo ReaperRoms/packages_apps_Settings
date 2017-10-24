@@ -43,6 +43,7 @@ import com.android.settings.deviceinfo.SELinuxStatusPreferenceController;
 import com.android.settings.deviceinfo.SafetyInfoPreferenceController;
 import com.android.settings.deviceinfo.SecurityPatchPreferenceController;
 import com.android.settings.deviceinfo.VendorVersionPreferenceController;
+import com.android.settings.deviceinfo.DeviceMaintainerPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 
@@ -135,6 +136,7 @@ public class DeviceInfoSettings extends DashboardFragment implements Indexable {
         controllers.add(new ReaperVersionPreferenceController(context));
         controllers.add(new GCCVersionPreferenceController(context));
         controllers.add(new ClangVersionPreferenceController(context));
+        controllers.add(new DeviceMaintainerPreferenceController(context));
         return controllers;
     }
 

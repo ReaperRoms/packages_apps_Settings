@@ -71,6 +71,11 @@
                         android:data="https://source.android.com/security/bulletin/" />
         </Preference>
 
+        <!-- Device Maintainer -->
+        <Preference android:key="device_maintainer"
+                android:title="@string/device_maintainer"
+                android:summary="@string/device_maintainer_default" />
+
         <!-- Device FCC equipment id -->
         <Preference
                 android:key="fcc_equipment_id"

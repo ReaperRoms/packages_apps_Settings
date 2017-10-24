@@ -22,6 +22,10 @@
     <string name="reaper_version">Reaper version</string>
     <string name="reaper_version_default">Unknown</string>
     
+    <!-- Device Maintainer -->
+    <string name="device_maintainer">Device maintainer</string>
+    <string name="device_maintainer_default">Unknown</string>
+
     <!-- Dev settings already enabled -->
     <string name="show_dev_already_enabled">Alreay done for you, hackerman.</string>
 
